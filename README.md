@@ -1,4 +1,3 @@
-# labcris
 # Wordpress en AWS ECS Cluster
 ## _Realizado por Cristian Alvarado_
 
@@ -79,10 +78,9 @@ RUN chown www-data:www-data wp-config.php && chmod 600 wp-config.php
 # Puerto expuesto por el contenedor
 EXPOSE 80
 
-
 ## Editar archivo wp_config.php 
 
-<?php
+php
 /** Configuración de la base de datos de WordPress */
 define('DB_NAME', 'cristian');
 define('DB_USER', 'admin');
